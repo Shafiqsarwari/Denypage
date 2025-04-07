@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Background.jpg'); /* Added background image */
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-attachment: fixed; /* Fix the background image */
+    background-position: center; /* Center the background image */
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 800px; /* Increased max-width */
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px; /* Reduced padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(249, 249, 249, 0.5); /* More transparent background */
+    border-radius: 8px;
+    text-align: center;
+    
+    
+}
+.header img {
+    width: 350px; /* Reduced image size */
+    height: auto;
+}
+.header h1 {
+    font-size: 24px; /* Reduced font size */
+    color: #000000;
+    margin: 15px 0;
+}
+.header h2 {
+    font-size: 12px; /* Reduced font size */
+    color: #000000;
+    margin: 10px 0;
+}
+.message {
+    margin-top: 30px; /* Reduced margin */
+}
+.message h3 {
+    color: red;
+    font-size: 20px; /* Reduced font size */
+    margin-bottom: 10px;
+}
+.message p {
+    font-size: 16px; /* Reduced font size */
+    margin: 10px 0;
+}
+.message .support-number {
+    font-weight: bold;
+    color: #007BFF; /* Blue color for better visibility */
+    font-size: 18px; /* Reduced font size */
+    direction: ltr; /* Ensures the + sign is aligned to the left */
+    display: inline-block;
+}
+.message .persian {
+    color: red;
+    font-size: 16px; /* Reduced font size */
+    margin-top: 20px;
+    direction: rtl;
+}
